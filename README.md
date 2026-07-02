@@ -1,12 +1,18 @@
-# React + Vite
+# Docker + React (Vite) - CI/CD Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a study project dedicated to implementing a complete **Continuous Integration and Continuous Deployment (CI/CD)** workflow. The primary goal is to automate the deployment of a React application (built with Vite) using Docker containers and AWS cloud hosting.
 
-Currently, two official plugins are available:
+## 🚀 Technologies and Tools
+* **Frontend:** React with Vite.
+* **Infrastructure:** Docker (Dockerfiles for both development and production).
+* **CI/CD:** GitHub Actions (automated build and deployment pipeline).
+* **Cloud:** AWS Elastic Beanstalk (managed cloud hosting platform).
+* **Security:** AWS IAM (Identity and Access Management for secure permissions).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Key Features
+* **Automation:** A GitHub Actions pipeline is configured to automatically test and deploy code to AWS upon every push to the main branch.
+* **Containerization:** Docker configuration ensures a consistent environment for both development and production.
+* **Cloud Infrastructure:** The application is hosted on AWS, demonstrating practical knowledge of cloud architecture and DevOps workflows.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎓 Learning Objective
+This project is part of my career transition into software development. It serves as a proof-of-concept for bridging the gap between application development and operations infrastructure.gi
